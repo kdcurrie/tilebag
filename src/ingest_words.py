@@ -2,6 +2,8 @@ import os
 import psycopg2
 from dotenv import load_dotenv
 
+load_dotenv()
+
 WORDS_TABLE_NAME = 'words'
 WORD_LEXICONS_TABLE_NAME = 'word_lexicons'
 
